@@ -47,5 +47,6 @@ void informarUsuario(double orcamento, double custototal) {
     print("Orçamento Estourado!");
     print("Custo Total: $custototal");
   }
+  print('');
 
 }
