@@ -10,6 +10,7 @@ void main() {
   double custototal;
 
   // Recebe valor das varáveis do usuário.
+  print('');
   stdout.write("Digite seu orçamento: ");
   orcamento = receberNumeroConvertido();
 

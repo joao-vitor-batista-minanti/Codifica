@@ -8,6 +8,7 @@ void main() {
   String cidade;
 
   // Entrada de dados do usuário.
+  print('');
   stdout.write("Digite seu Nome: ");
   nome = stdin.readLineSync() ?? '';
 
@@ -27,4 +28,5 @@ void main() {
   // Printa String contatenada.
   print("");
   print(contatenada);
+  print('');
 }

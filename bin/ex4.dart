@@ -20,7 +20,9 @@ void main() {
 }
 
 imprimirConversoes(double temperaturaCelsiusOriginal, double temperaturaConvertidaFahrenheit, double temperaturaReconvertidaCelsius) {
+  print('');
   print("Temperatura Celsius Original: $temperaturaCelsiusOriginal°C");
   print("Convertido para Fahrenheit: ${temperaturaConvertidaFahrenheit.toStringAsFixed(2)}°F");
   print("Reconvertido para Celsius: ${temperaturaReconvertidaCelsius.toStringAsFixed(2)}°C");
+  print('');
 }

@@ -2,6 +2,7 @@ import 'dart:io';
 
 void main() {
 
+  print('');
   print("Digite o primeiro número: ");
   final double num1 = receberNumeroConvertido();
 
@@ -47,4 +48,5 @@ void imprimirResultados(double num1, double num2, double soma, double subtracao,
   print("Divisao: $divisao");
   print("Média: $media");
   print("Resto da Divisão (Módulo): $resto");
+  print('');
 }
