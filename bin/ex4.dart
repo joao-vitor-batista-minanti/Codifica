@@ -1,5 +1,3 @@
-import 'dart:io';
-
 void main() {
     
   // Fahrenheit = (Celsius * 9/5) + 32.
