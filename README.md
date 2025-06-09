@@ -1,4 +1,4 @@
-# Lista de Exercícios 2 - Codifica
+# Lista de Exercícios 3 - Codifica
 
 Este repositório contém a resolução de exercícios propostos pela **Codifica**, utilizando a linguagem **Dart**.
 
