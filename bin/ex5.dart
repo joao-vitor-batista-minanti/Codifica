@@ -92,8 +92,8 @@ void marcarComoConcluida() {
 
   String tarefaSelecionada = pendentes[escolha - 1];
   int indiceOriginal = tarefas.indexOf(tarefaSelecionada);
-  tarefas[indiceOriginal] = '${tarefaSelecionada} (concluída)';
-  print('Tarefa "${tarefaSelecionada}" concluída!');
+  tarefas[indiceOriginal] = '$tarefaSelecionada (concluída)';
+  print('Tarefa "$tarefaSelecionada" concluída!');
 }
 
 void salvarTarefasEmArquivo(String nomeArquivo) {
