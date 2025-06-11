@@ -15,7 +15,7 @@ class Produto {
   double get preco => _preco;
   static int get qntdProdutos => _qntdProdutos;
 
-  // Manti set preco por conveção, invés de novoPreco (o método set já é para atualização de valores)
+  // Manti 'set preco' por conveção, invés de 'set novoPreco' (o método set já é usado convecionalmente para atualização de valores)
   set preco(double preco) {
     if(preco > 0) {
       _preco = preco;
