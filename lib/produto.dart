@@ -15,6 +15,15 @@ class Produto {
   double get preco => _preco;
   static int get qntdProdutos => _qntdProdutos;
 
+  // Manti set preco por conveção, invés de novoPreco (o método set já é para atualização de valores)
+  set preco(double preco) {
+    if(preco > 0) {
+      _preco = preco;
+    } else {
+      print("Erro: O preço não pode ser negativo. O valor R\$ ${_preco.toStringAsFixed(2)} foi mantido.");
+    }
+  }
+
   void exibirDetalhes() {
     print("Codigo: $_codigo");
     print("Nome: $_nome");
