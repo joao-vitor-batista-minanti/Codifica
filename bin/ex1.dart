@@ -5,7 +5,7 @@ void main() {
   Produto p2 = Produto(codigo: "67890", nome: "Fone de Ouvido Bluetooth", preco: 299.50);
 
   print("--- Produto 1 ---");
-  p1.printProduto();
+  p1.exibirDetalhes();
   print("--- Produto 2 ---");
-  p2.printProduto();
+  p2.exibirDetalhes();
 }
