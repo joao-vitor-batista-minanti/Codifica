@@ -5,7 +5,7 @@ import 'package:lista_5/services/gerenciador_estoque.dart';
 import 'package:lista_5/utils/json_handler.dart';
 
 void main() async {
-  print("\n--- TESTE E-COMMERCE ---");
+  print("\n---------- TESTE E-COMMERCE ----------");
   // Teste Produto Abstrato
   // var produtoGenerico = Produto(codigo: 'P01', nome: 'Genérico', preco: 10.0);
 
@@ -58,5 +58,5 @@ void main() async {
   outroCarrinho.exibirCarrinho();
   print('');
 
-  print("\n--- FIM DOS TESTES ---\n");
+  print("\n---------- FIM DOS TESTES ----------\n");
 }

@@ -1,2 +1,7 @@
-A sample command-line application with an entrypoint in `bin/`, library code
-in `lib/`, and example unit test in `test/`.
+# Lista de Exercícios 5 - Codifica
+
+Este repositório contém a resolução de exercícios propostos pela **Codifica**, utilizando a linguagem **Dart**.
+
+## Como executar os exercícios
+
+Basta executar `dart .\bin\main.dart` no terminal que será mostrado os teste realizados em main
