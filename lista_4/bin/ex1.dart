@@ -1,4 +1,4 @@
-import "package:lista4/produto.dart";
+import "package:lista_4/produto.dart";
 
 void main() {
   Produto p1 = Produto(codigo: "12345", nome: "Smartphone Modelo X", preco: 1999.90);

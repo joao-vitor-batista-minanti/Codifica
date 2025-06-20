@@ -1,4 +1,4 @@
-import 'package:lista4/produto.dart';
+import 'package:lista_4/produto.dart';
 
 class ProdutoEletronico extends Produto{
   final int _garantiaMeses;

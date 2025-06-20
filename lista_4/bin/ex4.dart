@@ -1,5 +1,5 @@
-import "package:lista4/produto.dart";
-import "package:lista4/carrinho_de_compras.dart";
+import "package:lista_4/produto.dart";
+import "package:lista_4/carrinho_de_compras.dart";
 
 void main() {
   Produto p1 = Produto(codigo: "111", nome: "Mouse Gamer", preco: 150.0);
