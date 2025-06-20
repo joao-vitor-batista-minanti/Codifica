@@ -38,7 +38,7 @@ Future<CarrinhoDeCompras> carregarCarrinhoDeJson(String nomeArquivo) async {
 
       if(itemJson['tipo'] == 'Eletrônico') {
         produto = ProdutoEletronico.fromJson(itemJson);
-      } else if (itemJson['tipo' == 'Alimentício']) {
+      } else if (itemJson['tipo'] == 'Alimentício') {
         produto = ProdutoAlimenticio.fromJson(itemJson);
       }
 

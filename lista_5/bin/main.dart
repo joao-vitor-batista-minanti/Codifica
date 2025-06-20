@@ -26,10 +26,10 @@ void main() async {
   print("Tipo do Produto: ${tv.tipo}");
   print("Tipo do Produto: ${leite.tipo}");
 
-  // Teste Mixin
+  print("\n=== TESTE MIXIN ===\n");
   print(tv.gerarEtiquetaEnvio());
 
-  // Teste Map
+  print("\n=== TESTE MAP ===\n");
   final estoque = GerenciadorEstoque();
   estoque.atualizaEstoque('E01', 10);
   estoque.atualizaEstoque('A01', 50);
@@ -41,19 +41,22 @@ void main() async {
   print("\nTem TV no estoque? ");
   print(estoque.temEstoque('E01'));
 
-  // Teste JSON
+  print("\n=== TESTE JSON ====\n");
   CarrinhoDeCompras  carrinho = CarrinhoDeCompras();
   carrinho.adicionarProduto(tv);
   carrinho.adicionarProduto(leite);
   carrinho.exibirCarrinho();
+  print('');
 
   await salvarCarrinhoEmJson(carrinho, 'carrinho.json');
 
-  carrinho = CarrinhoDeCompras();
-  carrinho.exibirCarrinho();
+  CarrinhoDeCompras outroCarrinho = CarrinhoDeCompras();
+  outroCarrinho.exibirCarrinho();
+  print('');
 
-  carrinho = await carregarCarrinhoDeJson('carrinho.json');
-  carrinho.exibirCarrinho();
+  outroCarrinho = await carregarCarrinhoDeJson('carrinho.json');
+  outroCarrinho.exibirCarrinho();
+  print('');
 
-  print("\n--- FIM DOS TESTE ---");
+  print("\n--- FIM DOS TESTES ---\n");
 }
